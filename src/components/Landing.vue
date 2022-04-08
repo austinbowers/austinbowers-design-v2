@@ -6,8 +6,8 @@
      <div
       class="animated-blur-2 absolute w-64 h-64 rounded-full blur-2xl dark:bg-blue-400 bg-blue-500 top-0 z-10"
     ></div>
-    <div class="flex justify-center pt-40 pb-64 px-8 relative z-30">
-      <div class="dark:text-gray-200 text-gray-900 text-center max-w-screen-md">
+    <div class="flex justify-center pt-40 pb-64 px-8">
+      <div class="dark:text-gray-200 text-gray-900 text-center max-w-screen-md relative z-30">
         <div class="flex justify-center mb-8">
           <div class="relative">
             <img
