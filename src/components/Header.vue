@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between items-center h-16 bg-white dark:bg-gray-900 px-8">
+    <div class="flex justify-between fixed w-full z-50 items-center h-16 px-8">
         <div></div>
         <ThemeToggler/>
     </div>

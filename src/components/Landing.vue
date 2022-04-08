@@ -1,10 +1,10 @@
 <template>
   <section id="landing" class="dark:bg-gray-900 bg-white min-h-screen relative overflow-hidden">
     <div
-      class="animated-blur-1 absolute w-64 h-64 rounded-full blur-2xl dark:bg-green-600 bg-green-800 top-0 z-10"
+      class="animated-blur-1 absolute w-64 h-64 rounded-full blur-2xl dark:bg-green-600 bg-green-400 top-0 z-10"
     ></div>
      <div
-      class="animated-blur-2 absolute w-64 h-64 rounded-full blur-2xl dark:bg-blue-400 bg-green-800 top-0 z-10"
+      class="animated-blur-2 absolute w-64 h-64 rounded-full blur-2xl dark:bg-blue-400 bg-blue-500 top-0 z-10"
     ></div>
     <div class="flex justify-center pt-40 pb-64 px-8 relative z-30">
       <div class="dark:text-gray-200 text-gray-900 text-center max-w-screen-md">
