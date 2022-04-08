@@ -1,6 +1,6 @@
 <template>
   <Header/>
-  <Landing/>
+  <Landing/> 
 </template>
 
 <script>
