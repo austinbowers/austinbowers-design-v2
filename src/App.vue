@@ -13,7 +13,7 @@
             Landing
         }
     }
-</script>
+</script> 
 
 <style lang="scss">
     body {
