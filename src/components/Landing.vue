@@ -1,6 +1,6 @@
 <template>
   <section id="landing" class="dark:bg-gray-900 bg-white relative">
-    <div class="flex justify-center pt-24 md:pt-40 pb-72 px-8">
+    <div class="flex justify-center pt-16 md:pt-40 pb-72 px-8">
       <div class="dark:text-gray-200 text-gray-900 text-center max-w-screen-md relative z-30">
         <div class="flex justify-center mb-8">
           <div class="relative">
