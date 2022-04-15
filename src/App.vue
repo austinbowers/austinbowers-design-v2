@@ -1,53 +1,55 @@
-<template class="relative overflow-hidden">
-  <Header />
-  <LowerLeftNav />
-  <section class="z-30" v-if="!workPage">
-    <Landing @toggle-work-page="toggleWorkPage" />
-    <FreelanceWebDesign />
-  </section>
-  <section class="z-30" v-if="workPage">
-    <div
-      class="dark:text-gray-200 text-gray-900 mx-auto max-w-screen-lg relative z-30"
-    >
-      <p @click="toggleWorkPage" class="cursor-pointer text-green-400">
-        Back to home
-      </p>
-    </div>
-    <div class="flex justify-center pt-24 pb-80 px-8">
+<template class="relative">
+  <div class="relative overflow-hidden">
+    <Header />
+    <LowerLeftNav />
+    <section class="z-30" v-if="!workPage">
+      <Landing @toggle-work-page="toggleWorkPage" />
+      <FreelanceWebDesign />
+    </section>
+    <section class="z-30" v-if="workPage">
       <div
-        class="dark:text-gray-200 text-gray-900 text-center max-w-screen-lg relative z-30"
+        class="dark:text-gray-200 text-gray-900 mx-auto max-w-screen-lg relative z-30"
       >
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
-          <div
-            class="bg-white h-full w-full inline-flex items-center justify-center"
-          >
-            <img class="w-full" src="./assets/photos/Back.jpg" />
-          </div>
-          <div
-            class="bg-white h-full w-full inline-flex items-center justify-center"
-          >
-            <img class="w-full" src="./assets/photos/Back2.jpg" />
-          </div>
-          <div
-            class="bg-white h-full w-full inline-flex items-center justify-center"
-          >
-            <img class="w-full" src="./assets/photos/BHBWavy.png" />
-          </div>
-          <div
-            class="bg-white h-full w-full inline-flex items-center justify-center"
-          >
-            <img class="w-full" src="./assets/photos/THE_ONE.png" />
+        <p @click="toggleWorkPage" class="cursor-pointer text-green-400">
+          Back to home
+        </p>
+      </div>
+      <div class="flex justify-center pt-24 pb-80 px-8">
+        <div
+          class="dark:text-gray-200 text-gray-900 text-center max-w-screen-lg relative z-30"
+        >
+          <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            <div
+              class="bg-white h-full w-full inline-flex items-center justify-center"
+            >
+              <img class="w-full" src="./assets/photos/Back.jpg" />
+            </div>
+            <div
+              class="bg-white h-full w-full inline-flex items-center justify-center"
+            >
+              <img class="w-full" src="./assets/photos/Back2.jpg" />
+            </div>
+            <div
+              class="bg-white h-full w-full inline-flex items-center justify-center"
+            >
+              <img class="w-full" src="./assets/photos/BHBWavy.png" />
+            </div>
+            <div
+              class="bg-white h-full w-full inline-flex items-center justify-center"
+            >
+              <img class="w-full" src="./assets/photos/THE_ONE.png" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-        <div
-        class="animated-blur-1 absolute rounded-full blur-2xl dark:bg-green-500 bg-green-300 top-0 z-20"
-      ></div>
-      <div
-        class="animated-blur-2 absolute rounded-full blur-2xl dark:bg-blue-500 bg-blue-300 top-0 z-10"
-      ></div>
+    </section>
+    <div
+      class="animated-blur-1 absolute rounded-full blur-2xl dark:bg-green-500 bg-green-300 top-0 z-20"
+    ></div>
+    <div
+      class="animated-blur-2 absolute rounded-full blur-2xl dark:bg-blue-500 bg-blue-300 top-0 z-10"
+    ></div>
+  </div>
 </template>
 
 <script>
@@ -121,9 +123,9 @@ body {
     opacity: 70%;
     top: 60%;
     left: 80%;
-    right:20%;
+    right: 20%;
     height: 25rem;
-    width:25rem;
+    width: 25rem;
   }
   100% {
     opacity: 0;
@@ -139,23 +141,23 @@ body {
     opacity: 0;
     top: 10%;
     left: 50%;
-    right:0%;
+    right: 0%;
     height: 20rem;
     width: 20rem;
   }
   50% {
     opacity: 70%;
     top: 0%;
-    right:100%;
+    right: 100%;
     left: 0%;
     height: 30rem;
-    width:30rem;
+    width: 30rem;
   }
   100% {
     opacity: 0;
     top: 10%;
     left: 50%;
-    right:0%;
+    right: 0%;
     height: 20rem;
     width: 20rem;
   }
