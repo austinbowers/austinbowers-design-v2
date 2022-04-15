@@ -1,4 +1,4 @@
-<template class="relative">
+<template class="relative overflow-hidden">
   <Header />
   <LowerLeftNav />
   <section class="z-30" v-if="!workPage">
