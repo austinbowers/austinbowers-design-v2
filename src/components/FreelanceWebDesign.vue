@@ -23,15 +23,14 @@
         </p>
         <p class="absolute bottom-0 left-0 font-bold text-green-400 cursor-pointer p-8">Learn More</p>
       </div>
-      
       <div
-        class="rounded-lg bg-green-400 shadow-xl border dark:border-gray-700 border-green-600 text-gray-900 relative h-80"
+        class="rounded-lg dark:bg-gray-800 shadow-sm bg-white border dark:border-gray-700 dark:text-white text-grey-900 relative h-80 md:mt-6"
       >
         <h6 class="font-semibold px-8 pt-8 pb-5">Design + Build</h6>
-        <p class="px-8 pb-5">
+        <p class="px-8 pb-5 text-gray-500">
           Get a full design, as well as a live product with your own domain.
         </p>
-        <p class="absolute bottom-0 left-0 font-bold text-gray-900 cursor-pointer p-8">Learn More</p>
+        <p class="absolute bottom-0 left-0 font-bold text-green-400 cursor-pointer p-8">Learn More</p>
       </div>
 
       <div

@@ -1,17 +1,11 @@
 <template>
-  <section id="landing" class="dark:bg-gray-900 bg-white relative overflow-hidden">
-    <div
-      class="animated-blur-1 absolute w-64 h-64 rounded-full blur-2xl dark:bg-green-600 bg-green-400 top-0 z-10"
-    ></div>
-     <div
-      class="animated-blur-2 absolute w-64 h-64 rounded-full blur-2xl dark:bg-blue-400 bg-blue-500 top-0 z-10"
-    ></div>
-    <div class="flex justify-center pt-40 pb-80 px-8">
+  <section id="landing" class="dark:bg-gray-900 bg-white relative">
+    <div class="flex justify-center pt-24 md:pt-40 pb-72 px-8">
       <div class="dark:text-gray-200 text-gray-900 text-center max-w-screen-md relative z-30">
         <div class="flex justify-center mb-8">
           <div class="relative">
             <img
-              class="rounded-full border animated-circle-outline w-32 relative z-20"
+              class="rounded-full border-2 animated-circle-outline w-32 relative z-20"
               alt="me"
               src="../assets/self-image.jpg"
             />
@@ -37,70 +31,9 @@
         this.$emit('toggle-work-page');
       }
     }
-  };
+  }
 </script>
 
 <style lang="scss" scoped>
-    .animated-circle-outline {
-      @apply border-green-400;
-      animation: 5s linear infinite alternate ease-in-out; 
-      animation-name: circle-outline-color-change;
-    }
-    .animated-blur-1 {
-        animation: 30s linear infinite alternate ease-in-out; 
-        animation-name: blur-move-1;
-        opacity:0;
-    }
-    .animated-blur-2 {
-        animation: 30s linear infinite alternate ease-in-out; 
-        animation-name: blur-move-2;
-        opacity:0;
-    }
 
-    @keyframes circle-outline-color-change {
-        0% {
-            @apply border-green-400;
-        }
-        50% {
-            @apply border-blue-400; 
-        }
-        100% {
-            @apply border-green-400;
-        }
-    }
-
-    @keyframes blur-move-1 {
-        0% {
-            opacity:0;
-            top: 20%;
-            left: 20%;
-        }
-        50% {
-            opacity:60;
-            top: 60%;
-            left: 80%;
-        }
-        100% {
-            opacity:0;
-            top: 20%;
-            left: 0%;
-        }
-    }
-    @keyframes blur-move-2 {
-        0% {
-            opacity:0;
-            top: 10%;
-            left: 50%;
-        }
-        50% {
-             opacity:60;
-            top: 40%;
-            left: 10%;
-        }
-        100% {
-            opacity: 0;
-            top: 10%;
-            left: 50%;
-        }
-    }
 </style>
