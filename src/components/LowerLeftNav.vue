@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-50 left-5 bottom-5">
+  <div class="hidden lg:block lg:fixed z-50 left-5 bottom-5">
     <div
       class="absolute left-1 bottom-1 h-24 w-1 border-l border-gray-700 dark:border-gray-500"
     ></div>

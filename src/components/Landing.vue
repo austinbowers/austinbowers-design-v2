@@ -24,14 +24,20 @@
           Take a moment to explore my portfolio to see some of my past projects.
           Please feel free to reach out if you’d like to learn more.
         </h6>
-        <button class="btn btn-green">View work</button>
+        <button class="btn btn-green" @click="toggleWorkPage">View work</button>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+  export default {
+    methods: {
+      toggleWorkPage() {
+        this.$emit('toggle-work-page');
+      }
+    }
+  };
 </script>
 
 <style lang="scss" scoped>
