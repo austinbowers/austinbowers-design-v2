@@ -21,7 +21,7 @@ p {
 }
 
 .btn  {
-    @apply text-lg text-gray-900 rounded-full px-8 py-4 transition duration-200 inline-flex items-center font-bold leading-none;
+    @apply text-gray-900 rounded-full px-8 py-4 transition duration-200 inline-flex items-center leading-none;
     &.btn-green {
         @apply bg-green-400; 
 
