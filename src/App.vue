@@ -1,7 +1,6 @@
 <template class="relative">
   <div class="relative overflow-hidden min-h-screen">
     <Header />
-    <LowerLeftNav />
     <section class="z-30" v-if="!workPage">
       <Landing @toggle-work-page="toggleWorkPage" />
       <!-- <FreelanceWebDesign /> -->
@@ -44,7 +43,7 @@
       </div>
     </section>
     <div
-      class="animated-blur-1 absolute rounded-full blur-2xl dark:bg-green-500 bg-green-300 top-0 z-20"
+      class="animated-blur-1 absolute rounded-full blur-2xl dark:bg-emerald-500 bg-emerald-300 top-0 z-20"
     ></div>
     <div
       class="animated-blur-2 absolute rounded-full blur-2xl dark:bg-blue-500 bg-blue-300 top-0 z-10"
@@ -83,7 +82,7 @@ body {
   @apply transition duration-300;
 }
 .animated-circle-outline {
-  @apply border-green-400;
+  @apply border-emerald-400;
   animation: 6s linear infinite alternate ease-in-out;
   animation-name: circle-outline-color-change;
 }
@@ -100,13 +99,13 @@ body {
 
 @keyframes circle-outline-color-change {
   0% {
-    @apply border-green-400;
+    @apply border-emerald-400;
   }
   50% {
     @apply border-blue-400;
   }
   100% {
-    @apply border-green-400;
+    @apply border-emerald-400;
   }
 }
 

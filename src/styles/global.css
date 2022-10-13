@@ -1,3 +1,7 @@
+html {
+  @apply font-sans;
+}
+
 h1 {
   @apply text-6xl;
 }
@@ -27,13 +31,13 @@ p {
 }
 
 .btn {
-  @apply text-lg text-gray-900 rounded-full px-8 py-4 transition duration-200 inline-flex items-center font-bold leading-none;
+  @apply text-lg text-gray-900 rounded-full px-8 py-3 h-10 transition duration-500 inline-flex items-center font-normal;
 }
 .btn.btn-green {
-  @apply bg-green-400;
+  @apply bg-emerald-400;
 }
 .btn.btn-green:hover {
-  @apply bg-green-300;
+  @apply bg-emerald-300 shadow shadow-emerald-500/20;
 }
 
 /*# sourceMappingURL=global.css.map */
