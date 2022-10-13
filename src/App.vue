@@ -34,7 +34,7 @@
             <div
               class="bg-white rounded-md overflow-hidden h-full w-full inline-flex items-center justify-center"
             >
-              <img class="w-full" src="./assets/photos/THE_ONE.png" />
+              <img class="w-full" src="./assets/photos/THE_ONE.png" /> 
             </div>
             <!-- <div
               class="bg-white col-span-2 rounded-md overflow-hidden h-full w-full inline-flex items-center justify-center"
